@@ -36,6 +36,10 @@
   object-fit: cover;
   object-position: top;
 }
+.map-marker{
+  height: 16px;
+}
+
 .format-text{
   text-transform: capitalize;
   white-space: nowrap;
