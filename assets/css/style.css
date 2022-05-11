@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 .cards-container{
   --main-color: #17a2b8;
   text-align: center;
@@ -39,8 +42,18 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.btn-wrapper{
+  padding: 5% 0;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
 .btn{
   max-width: 40%;
+  min-width: 15%;
+  background-color: var(--main-color);
+}
+.btn:first-child{
+  background-color: #28a745;
 }
 .card-footer{
   background-color: var(--main-color);
@@ -59,7 +72,6 @@
 .google{
   background-image: url(./../icons/google.png);
 }
-
 .twitter{
   background-image: url(./../icons/twitter.png);
 }
