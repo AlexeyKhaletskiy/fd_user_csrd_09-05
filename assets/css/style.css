@@ -1,3 +1,7 @@
+
+:root{
+  font-size: 14px;
+}
 *{
   box-sizing: border-box;
 }
@@ -36,8 +40,15 @@
   object-fit: cover;
   object-position: top;
 }
+
+.fullname-user{
+  margin: 4% 0;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
 .map-marker{
-  height: 16px;
+  height: 1em;
 }
 
 .format-text{
@@ -47,6 +58,7 @@
   text-overflow: ellipsis;
 }
 .btn-wrapper{
+  margin: 4% 0;
   padding: 5% 0;
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
@@ -60,6 +72,7 @@
   background-color: #28a745;
 }
 .card-footer{
+  margin-top: 5%;
   background-color: var(--main-color);
 }
 .social-icon{
