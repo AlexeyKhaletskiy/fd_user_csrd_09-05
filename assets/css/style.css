@@ -66,6 +66,7 @@
 .btn{
   max-width: 40%;
   min-width: 15%;
+  border: none;
   background-color: var(--main-color);
 }
 .btn:first-child{
